@@ -5,6 +5,13 @@
 html {
   scroll-behavior: smooth;
 }
-background-image: url('./background.jpg');
+
+body {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  background-repeat: no-repeat;
+}
 
 
