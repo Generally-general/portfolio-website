@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer className="bg-gray-800 text-center py-4 mt-auto">
-      <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+      <p>&copy; 2025 Pranjal Kumar. All Rights Reserved.</p>
     </footer>
   );
 }
