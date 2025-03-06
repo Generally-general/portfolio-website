@@ -50,14 +50,14 @@ function Projects() {
             <div className="mt-4 flex justify-between">
               <a 
                 href={project.demo} 
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="text-blue-400 font-medium hover:text-blue-500 transition"
               >
                 Live Demo ↗
               </a>
               <a 
                 href={project.code} 
-                target="_blank"
+                target="_blank" rel="noopener noreferrer"
                 className="text-gray-400 font-medium hover:text-gray-300 transition"
               >
                 Source Code ↗

@@ -73,7 +73,7 @@ function Hero() {
       <nav className="fixed top-0 left-0 w-full bg-black bg-opacity-50 backdrop-blur-sm text-white py-4 px-8 flex justify-between items-center z-20">
         <h2 className="text-xl font-bold">Pranjal's Portfolio</h2>
         <div className="space-x-6">
-          <a href="https://www.linkedin.com/in/pranjalkumar16/" target="_blank" className="hover:text-gray-300">About</a>
+          <a href="https://www.linkedin.com/in/pranjalkumar16/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300">About</a>
           <a href="#projects" className="hover:text-gray-300">Projects</a>
           <a href="#contact" className="hover:text-gray-300">Contact</a>
         </div>
