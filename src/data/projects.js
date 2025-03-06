@@ -6,8 +6,8 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio website built with React and Tailwind CSS.",
     image: portfolioImg,
-    demo: "#",
-    code: "#",
+    demo: "https://portfolio-website-chi-pied.vercel.app/",
+    code: "https://github.com/Generally-general/portfolio-website",
     tags: ["React", "Tailwind CSS", "JavaScript"],
   },
   {

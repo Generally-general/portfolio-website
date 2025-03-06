@@ -6,12 +6,25 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Global Background Image */
 body {
-  background-image: url("./background.jpg");
+  background-image: url('https://source.unsplash.com/1600x900/?nature,water');
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+/* Section Styling */
+.section {
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay for contrast */
+  backdrop-filter: blur(8px); /* Smooth blur effect */
+  min-height: 100vh; /* Ensures each section fills the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; /* Ensures text is readable */
+  padding: 50px;
+  width: 100%;
 }
 
 
